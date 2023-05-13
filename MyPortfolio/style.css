@@ -1,0 +1,82 @@
+body{
+    /* Home Page */
+
+    position: relative;
+    width: 1344px;
+    height: 1984px;
+    
+    background: #111827;
+    color: #FFFFFF;
+
+
+}
+/* Hey ! I’m Levis Chisira I am a Software Developer 
+engineer Specialized in building and designing web based applications.
+ I am determined in building human centered systems - Safaricom PLC. */
+.sec1{
+
+    position: absolute;
+width: 983px;
+height: 415px;
+left: calc(50% - 983px/2 - 40.5px);
+top: 150px;
+
+font-family: 'Inter';
+font-style: normal;
+
+
+line-height: 58px;
+text-align: center;
+
+
+
+mix-blend-mode: normal;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.span1{
+    font-weight: 900;
+    font-size: 48px;
+
+}
+.span2{
+    font-size: 30px;
+    font-weight: 400;
+}
+/* Home About Me My Projects Contact Me */
+.navigation{
+
+  
+position: absolute;
+width: 742px;
+height: 91px;
+left: 582px;
+top: 39px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 29px;
+line-height: 39px;
+text-align: justify;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.logo{
+    /* Ellipse 1 */
+
+    position: absolute;
+    
+    width: 94px;
+    height: 89px;
+    left: 60px;
+    top: 39px;
+    border-radius: 30px;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+background: url("assets/img.jpg");
+}
